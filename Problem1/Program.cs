@@ -47,7 +47,7 @@ namespace Problem1
             Console.WriteLine("No. of vehicles sold to corporate customers: " + totalCorporate);
             august.Calculate();
             september.Calculate();
-            Console.WriteLine($"No. of Vehicles sold from aug 15th to sept 15th: {(august.VehiclesSold - (september.VehiclesSold) / 2) + september.VehiclesSold}");
+            Console.WriteLine($"No. of Vehicles sold from aug 15th to sept 15th: {(august.VehiclesSold - (september.VehiclesSold) / 2) + september.VehiclesSold/2}");
 
         }
     }
